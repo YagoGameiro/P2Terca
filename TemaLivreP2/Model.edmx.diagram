@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="22843d24a14741ada5507260119e4d21" Name="Diagram1">
+        <EntityTypeShape EntityType="Prova2TercaModel.Cliente" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prova2TercaModel.Fornecedor" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prova2TercaModel.Material" Width="1.5" PointX="5.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prova2TercaModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prova2TercaModel.Telefone" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prova2TercaModel.Tipo" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Prova2TercaModel.Venda" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="Prova2TercaModel.FK_Cliente_Telefone" ManuallyRouted="false" />
+        <AssociationConnector Association="Prova2TercaModel.FK_Venda_Cliente1" ManuallyRouted="false" />
+        <AssociationConnector Association="Prova2TercaModel.FK_Fornecedor_Telefone" ManuallyRouted="false" />
+        <AssociationConnector Association="Prova2TercaModel.FK_Material_Fornecedor" ManuallyRouted="false" />
+        <AssociationConnector Association="Prova2TercaModel.FK_Venda_Fornecedor" ManuallyRouted="false" />
+        <AssociationConnector Association="Prova2TercaModel.FK_Material_Tipo" ManuallyRouted="false" />
+        <AssociationConnector Association="Prova2TercaModel.FK_Venda_Material" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

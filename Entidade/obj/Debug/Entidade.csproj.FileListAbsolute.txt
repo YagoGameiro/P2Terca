@@ -1,0 +1,7 @@
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\Entidade\bin\Debug\Entidade.dll.config
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\Entidade\bin\Debug\Entidade.dll
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\Entidade\bin\Debug\Entidade.pdb
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\Entidade\obj\Debug\Entidade.csprojResolveAssemblyReference.cache
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\Entidade\obj\Debug\Entidade.csproj.CoreCompileInputs.cache
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\Entidade\obj\Debug\Entidade.dll
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\Entidade\obj\Debug\Entidade.pdb

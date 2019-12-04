@@ -1,0 +1,51 @@
+﻿@model IEnumerable<TemaLivreP2.Venda>
+
+@{
+    ViewBag.Title = "Vendas";
+}
+
+<h2>Vendas</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Data)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cliente1.nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fornecedor1.nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Material1.descricao)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cliente1.nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fornecedor1.nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Material1.descricao)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

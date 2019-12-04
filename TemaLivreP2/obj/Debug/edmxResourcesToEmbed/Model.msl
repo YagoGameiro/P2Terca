@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Prova2TercaModelStoreContainer" CdmEntityContainer="Prova2TercaEntities1">
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="Prova2TercaModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="telefone" ColumnName="telefone" />
+          <ScalarProperty Name="cidade" ColumnName="cidade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fornecedor">
+      <EntityTypeMapping TypeName="Prova2TercaModel.Fornecedor">
+        <MappingFragment StoreEntitySet="Fornecedor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Material">
+      <EntityTypeMapping TypeName="Prova2TercaModel.Material">
+        <MappingFragment StoreEntitySet="Material">
+          <ScalarProperty Name="Preco" ColumnName="Preco" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Fornecedor" ColumnName="Fornecedor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Prova2TercaModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Telefone">
+      <EntityTypeMapping TypeName="Prova2TercaModel.Telefone">
+        <MappingFragment StoreEntitySet="Telefone">
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="telefone1" ColumnName="telefone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipo">
+      <EntityTypeMapping TypeName="Prova2TercaModel.Tipo">
+        <MappingFragment StoreEntitySet="Tipo">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Venda">
+      <EntityTypeMapping TypeName="Prova2TercaModel.Venda">
+        <MappingFragment StoreEntitySet="Venda">
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Fornecedor" ColumnName="Fornecedor" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Material" ColumnName="Material" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

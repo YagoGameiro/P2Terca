@@ -1,0 +1,6 @@
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\ServicoHostWFC\bin\Debug\netcoreapp1.1\ServicoHostWFC.deps.json
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\ServicoHostWFC\bin\Debug\netcoreapp1.1\ServicoHostWFC.runtimeconfig.json
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\ServicoHostWFC\bin\Debug\netcoreapp1.1\ServicoHostWFC.runtimeconfig.dev.json
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\ServicoHostWFC\obj\Debug\netcoreapp1.1\ServicoHostWFC.csprojResolveAssemblyReference.cache
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\ServicoHostWFC\obj\Debug\netcoreapp1.1\ServicoHostWFC.csproj.CoreCompileInputs.cache
+C:\Users\logatti.FIAR\source\repos\TemaLivreP2\ServicoHostWFC\obj\Debug\netcoreapp1.1\ServicoHostWFC.AssemblyInfo.cs
